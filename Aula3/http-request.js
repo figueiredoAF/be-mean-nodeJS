@@ -2,7 +2,7 @@ const http = require('http');
 
 const requestOptions = {
     host:'www.google.com',
-    path:'/'
+    path:'/?gws_rd=cr&dcr=0&ei=nsWdWpWoLdKO5wKO6zU'
 };
 
 function requestCallback(res){
