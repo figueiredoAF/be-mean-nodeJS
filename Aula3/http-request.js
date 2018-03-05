@@ -1,8 +1,8 @@
 const http = require('http');
 
 const requestOptions = {
-    host:'www.google.com',
-    path:'/?gws_rd=cr&dcr=0&ei=nsWdWpWoLdKO5wKO6zU'
+    host:'httpbin.org',
+    path:'/ip'
 };
 
 function requestCallback(res){
